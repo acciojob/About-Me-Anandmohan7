@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Page - Shubham Bhola</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .left {
+      flex: 1;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+    }
+    .right {
+      flex: 2;
+      padding: 20px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #222;
+      border-bottom: 2px solid #2a7de1;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .info p, .skills p {
+      margin: 5px 0;
+    }
+    .bar {
+      background: #e0e0e0;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .bar-fill {
+      height: 20px;
+      background-color: #2a7de1;
+      color: white;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 20px;
+      border-radius: 20px;
+    }
+    .badge {
+      display: inline-block;
+      background: #f0f0f0;
+      border-radius: 4px;
+      padding: 3px 8px;
+      margin: 2px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="/mnt/data/e247eb3d-60ca-400f-bbb4-3e5f9b3aaab0.png" alt="Profile Picture" />
+      <h2>Name</h2>
+      <p>Shubham Bhola</p>
+      <h2>Email</h2>
+      <p>abcdef796@gmail.com</p>
+      <h2>Profile</h2>
+      <p>Software Developer</p>
+      <h2>Skills</h2>
+      <div class="skills">
+        <p><span class="badge">React</span> <span class="badge">CSS</span> <span class="badge">JavaScript</span></p>
+        <div class="bar"><div class="bar-fill" style="width: 95%">95%</div></div>
 
+        <p><span class="badge">Node.js</span> <span class="badge">MongoDB</span></p>
+        <div class="bar"><div class="bar-fill" style="width: 90%">90%</div></div>
+
+        <p><span class="badge">C/C++</span> <span class="badge">Python</span> <span class="badge">Batch</span></p>
+        <div class="bar"><div class="bar-fill" style="width: 99%">99%</div></div>
+
+        <p><span class="badge">AWS</span> <span class="badge">Hadoop</span></p>
+        <div class="bar"><div class="bar-fill" style="width: 93%">93%</div></div>
+      </div>
+    </div>
+
+    <div class="right">
+      <h2>About me</h2>
+      <p>I am a self-starter with a passion to adapt and evangelise new technologies. I have a passion for software development with a diverse skillset ranging from the MERN stack to a stronghold on data structures and algorithms. I like to tackle complex challenges head-on to deliver technically sound solutions with optimum efficiency.</p>
+
+      <p>I believe that magic is possible with a blend of imagination, hard work and passion. Most of all, I believe in determination and honest efforts to enhance my skills in order to contribute to the growth of society.</p>
+    </div>
+  </div>
+</body>
+</html>
